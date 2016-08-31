@@ -1,8 +1,7 @@
 # Modularity DICE and Testing
 ## Command Line Applications / Exercise 01 / Modularity
 
-![Modularity](modularityScrn.jpg?raw=true "Modularity Screenshot")   
-![Istanbul Testing](istanbulScrn.jpg?raw=true "Istanbul Testing Screenshot")
+![Modularity](modularityScrn.jpg?raw=true "Modularity Screenshot")  
 ***
 
 # Modularity  
@@ -100,7 +99,9 @@ $ diceroll 2 100
 ***
 
 # Mocha Testing
-For testing our diceroll, we used [Mocha](https://mochajs.org/), [Chai](http://chaijs.com/), and [Istanbul](https://github.com/gotwarlost/istanbul) to check our results against expected outcomes.
+For testing our diceroll, we used [Mocha](https://mochajs.org/), [Chai](http://chaijs.com/), and [Istanbul](https://github.com/gotwarlost/istanbul) to check our results against expected outcomes.  
+ 
+![Istanbul Testing](istanbulScrn.jpg?raw=true "Istanbul Testing Screenshot")
 ![Mocha Testing](mochaScrn.jpg?raw=true "Mocha Testing Screenshot") 
 
 ***
