@@ -2,7 +2,10 @@
   "name": "01",
   "version": "1.0.0",
   "description": "Diceroll Project",
-  "main": "index.js",
+  "main": "./bin/diceroll",
+  "bin": {
+    "diceroll": "./bin/diceroll"
+  },
   "scripts": {
     "test": "mocha",
     "coverage": "istanbul cover _mocha"
