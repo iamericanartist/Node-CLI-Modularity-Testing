@@ -105,6 +105,18 @@ For testing our diceroll, we used [Mocha](https://mochajs.org/), [Chai](http://c
 ![Mocha Testing](mochaScrn.jpg?raw=true "Mocha Testing Screenshot") 
 
 ***
+# Setup for Global Terminal Use  
+- Edit `package.json`"main" and "bin" as follows:  
+```
+ "main": "./bin/diceroll",
+  "bin": {
+    "diceroll": "./bin/diceroll"
+```  
+- In TERMINAL run: `npm install -g`  
+
+####You should now be able to run "diceroll" anywhere across your TERMINAL 🎲
+
+***
 
 Original Exercise Link:
 ["Exercise Link"](https://github.com/nashville-software-school/node-milestones/blob/master/02-command-line-applications/exercises/01-modularity.md)
